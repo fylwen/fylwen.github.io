@@ -1,0 +1,56 @@
+---
+layout: page
+title:  
+permalink: /
+---
+<h3>About Me</h3>
+<div>
+<p> I'm currently a final-year Ph.D. student in <i>The University of Hong Kong</i>, supervised by <a href="https://www.cs.hku.hk/people/academic-staff/wenping"> <i>Prof. Wang Wenping</i></a> and <a href="https://i.cs.hku.hk/~taku/"><i>Prof. Komura Taku</i></a>. I also work closely with <a href="https://haopan.github.io/"><i>Dr. Pan Hao</i></a> and <a href="https://scholar.google.com.hk/citations?user=JAzFhXQAAAAJ&hl=zh-CN"><i>Dr. Yang Lei</i></a>. Before my Ph.D. study, I received my Bachelor degree in <i>Shandong University</i>.</p>
+<p>My current research interest is related to 6D object pose estimation, human/hand pose estimation and action recognition.</p>
+</div>
+
+<h3>Experience</h3>
+<div>
+<p><b>Ph.D., <i>The University of Hong Kong</i>,  2018.9-Now.</b> </p>
+<p style="text-indent:2em;"> - Research Intern, <i>Microsoft Research Asia</i>,  2021.1-2021.7</p>
+<p><b>B.Eng., <i>Shandong University</i>, 2014.9-2018.6</b></p>
+<p style="text-indent:2em;"> - Student Research Assistant, <i>Interdisciplinary Research Center, SDU</i>,  2015.11-2018.6</p>
+<p style="text-indent:2em;"> - Research Intern, <i>The University of Hong Kong</i>,  2017.7-2017.8</p>
+</div>
+
+
+<h3>Selected Publications</h3>
+<div class="publications">
+  <div class="timeline" id="timeline">
+    {% for publication in site.data.index.publications %}
+    {% assign next_i = forloop.index0 | plus: 1 %}
+    {% assign prev_i = forloop.index0 | minus: 1 %}
+    <ul>
+    <li>
+   	     <p style="margin: 0">{{publication.title}}</p>
+   	     <p style="margin: 0">{{ publication.authors  }}</p>
+         <p style="margin: 0">{{ publication.venue }} {{ publication.year }} {{ publication.comments }}</p>
+         {% if publication.paper %}
+         <a href=" {{publication.paper}} "><i class="fa fa-fw fa-file-o"></i>Paper</a>
+         {% endif %}
+         {% if publication.paper_local %}
+         <a href=" {{ site.url }}/download/{{publication.paper_local}} "><i class="fa fa-fw fa-file-o"></i>Paper</a>
+         {% endif %}
+         {% if publication.web %}
+         <a href="{{ publication.web}} "><i class="fa fa-fw fa-home"></i>Project</a>
+         {% endif %}
+         {% if publication.dataset %}
+         <a href="{{ publication.dataset}} "><i class="fa fa-fw fa-download"></i>Dataset</a>
+         {% endif %}
+
+</li>
+</ul>
+
+    {% endfor %}
+
+
+  </div>
+  </div>
+
+<h3>Reviewer Service</h3>
+<p><b>ECCV</b>(2022), <b>CVPR</b>(2022)</p>
