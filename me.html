@@ -1,0 +1,103 @@
+---
+layout: page
+title:  
+permalink: /
+---
+<h3>About Me</h3>
+<div>
+<p style="margin: 0">I'm currently a final-year Ph.D. student at <i>The University of Hong Kong</i>, and also a project research associate at <i><a href="https://www.ut-vision.org/sugano-lab/">Sugano-Lab,</a> Institute of Industrial Science, The University of Tokyo</i>. My research interest is related to 6D object pose estimation, and human activity understanding.</p>
+</div>
+
+<h3>Education</h3>
+<p style="margin: 0">[2018.9-] Ph.D., <b>The University of Hong Kong</b>, Supervisor: <a href="https://www.cs.hku.hk/people/academic-staff/wenping">Prof. Wang Wenping</a> and <a href="https://i.cs.hku.hk/~taku/">Prof. Komura Taku</a></p>
+<p style="margin: 0">[2014.9-2018.6] B.Eng.,  <b>Shandong University</b> </p>
+
+
+<h3>Experience</h3>
+<div>
+<p style="margin: 0">[2024.3-]  Visiting Associate Research Fellow, <b>The University of Tokyo</b>, Advisor: <a href="https://www.yusuke-sugano.info/">Prof. Sugano Yusuke</a></p>
+<p style="margin: 0">[2023.3-2024.2]  Visiting Associate Research Fellow, <b>The University of Tokyo</b>, Advisor: <a href="https://sites.google.com/ut-vision.org/ysato/">Prof. Sato Yoichi</a></p>
+<p style="margin: 0">[2021.1-2021.7]  Research Intern, <b>Microsoft Research Asia</b>, Advisor: <a href="https://haopan.github.io/">Dr. Pan Hao</a></p>
+<p style="margin: 0">[2017.7-2017.8]  Research Intern, <b>The University of Hong Kong</b>, Advisor: <a href="https://www.cs.hku.hk/people/academic-staff/wenping">Prof. Wang Wenping</a></p>
+<p style="margin: 0">[2015.11-2018.6] Student Research Assistant, <b>Shandong University</b>, Advisor: <a href="">Dr. Zhong Fan</a></p>
+</div>
+
+
+
+
+
+<h3>Publications</h3>
+<div class="publications">
+  <div class="timeline" id="timeline">
+    {% for publication in site.data.index.publications %}
+    {% assign next_i = forloop.index0 | plus: 1 %}
+    {% assign prev_i = forloop.index0 | minus: 1 %}
+    <ul>
+    <li>
+   	     <p style="margin: 0">{{publication.title}}</p>
+   	     <p style="margin: 0">{{ publication.authors  }}</p>
+         <p style="margin: 0">{{ publication.venue }} {{ publication.year }} {{ publication.comments }}</p>
+         {% if publication.paper %}
+         <a href=" {{publication.paper}} "><i class="fa fa-fw fa-file-o"></i>Paper</a>
+         {% endif %}
+         {% if publication.paper_local %}
+         <a href=" {{ site.url }}/download/{{publication.paper_local}} "><i class="fa fa-fw fa-file-o"></i>Paper</a>
+         {% endif %}
+         {% if publication.web %}
+         <a href="{{ publication.web}} "><i class="fa fa-fw fa-home"></i>Project Page</a>
+         {% endif %}
+         {% if publication.dataset %}
+         <a href="{{ publication.dataset}} "><i class="fa fa-fw fa-github"></i>Code and Data</a>
+         {% endif %}
+
+    </li>
+    </ul>
+
+    {% endfor %}
+  </div>
+ </div>
+
+
+
+ <h3>Preprints</h3>
+ <div class="publications">
+   <div class="timeline" id="timeline">
+     {% for publication in site.data.index.preprints %}
+     {% assign next_i = forloop.index0 | plus: 1 %}
+     {% assign prev_i = forloop.index0 | minus: 1 %}
+     <ul>
+     <li>
+           <p style="margin: 0">{{publication.title}}</p>
+           <p style="margin: 0">{{ publication.authors  }}</p>
+          <p style="margin: 0">{{ publication.venue }} {{ publication.year }} {{ publication.comments }}</p>
+          {% if publication.paper %}
+          <a href=" {{publication.paper}} "><i class="fa fa-fw fa-file-o"></i>Paper</a>
+          {% endif %}
+          {% if publication.paper_local %}
+          <a href=" {{ site.url }}/download/{{publication.paper_local}} "><i class="fa fa-fw fa-file-o"></i>Paper</a>
+          {% endif %}
+          {% if publication.web %}
+          <a href="{{ publication.web}} "><i class="fa fa-fw fa-home"></i>Project Page</a>
+          {% endif %}
+          {% if publication.dataset %}
+          <a href="{{ publication.dataset}} "><i class="fa fa-fw fa-github"></i>Code and Data</a>
+          {% endif %}
+ 
+     </li>
+     </ul>
+ 
+     {% endfor %}
+   </div>
+  </div>
+
+
+<h3>Reviewer Service</h3>
+<div>
+<p style="margin: 0"><b>CVPR</b>(2024, 2022), <b>IJCV</b>(2023), <b>ICCV</b>(2023), <b>ECCV</b>(2022), <b>ICRA</b>(2023), <b>3DV</b>(2022)</p>
+</div>
+
+
+<h3>Languages</h3>
+<div>
+<p style="margin: 0"><b>Mandarin</b>(native proficiency), <b>Cantonese</b>(professional working proficiency), <b> English</b>(professional working proficiency), <b> Japanese </b>(limited working proficiency,<i> JLPT N1 in 2022</i>) </p>
+</div>

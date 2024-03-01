@@ -1,0 +1,30 @@
+
+- title: " <b>Hierarchical Temporal Transformer for 3D Hand Pose Estimation and Action Recognition from Egocentric RGB Videos </b>"
+  authors: "<b>Yilin Wen</b>, Hao Pan, Lei Yang, Jia Pan, Taku Komura, Wenping Wang."
+  venue: "CVPR"
+  year: 2023
+  comments: "  (<i>Extended abstract at HBHA Workshop, ECCV 2022</i>)"
+  paper: https://arxiv.org/pdf/2209.09484.pdf
+  web: htt.html
+  dataset: https://github.com/fylwen/HTT
+- title: " <b>DISP6D: Disentangled Implicit Shape and Pose Learning for Scalable 6D Pose Estimation </b>"
+  authors: "<b>Yilin Wen</b>, Xiangyu Li, Hao Pan, Lei Yang, Zheng Wang, Taku Komura, Wenping Wang."
+  venue:  "ECCV"
+  year: 2022
+  paper: https://arxiv.org/pdf/2107.12549.pdf
+  web: disp6d.html
+  dataset: https://github.com/fylwen/DISP-6D
+- title: "<b>Gen6D: Generalizable Model-Free 6-DoF Object Pose Estimation from RGB Images </b>"
+  authors: "Yuan Liu, <b>Yilin Wen</b>, Sida Peng, Cheng Lin, Xiaoxiao Long, Taku Komura, Wenping Wang"
+  venue:  "ECCV"
+  year: 2022
+  paper: https://arxiv.org/pdf/2204.10776.pdf
+  web: https://liuyuan-pal.github.io/Gen6D/
+  dataset: https://github.com/liuyuan-pal/Gen6D
+- title: "<b>Edge Enhanced Implicit Orientation Learning With Geometric Prior for 6D Pose Estimation</b>"
+  authors: "<b>Yilin Wen</b>, Hao Pan, Lei Yang, Wenping Wang"
+  venue:  "RA-L & IROS"
+  year: 2020
+  paper: https://haopan.github.io/papers/6dpose.pdf
+  web: https://haopan.github.io/6dpose.html
+  dataset: https://github.com/fylwen/EEGP-AAE
