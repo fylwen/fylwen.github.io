@@ -3,7 +3,7 @@
   authors: "<b>Yilin Wen</b>, Hao Pan, Lei Yang, Jia Pan, Taku Komura, Wenping Wang."
   venue: "CVPR"
   year: 2023
-  comments: "  (<i>Extended abstract at HBHA Workshop, ECCV 2022</i>)"
+  comments: "  (<i>Extended abstract at HBHA Workshop, ECCV 2022; Poster presentation at ASPIRE HCVM workshop, 2024</i>)"
   paper: https://arxiv.org/pdf/2209.09484.pdf
   web: htt.html
   dataset: https://github.com/fylwen/HTT
