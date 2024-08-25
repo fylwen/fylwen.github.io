@@ -1,4 +1,12 @@
 
+- title: " <b>Generative Hierarchical Temporal Transformer for Hand Pose and Action Modeling </b>"
+  authors: "<b>Yilin Wen</b>, Hao Pan, Takehiko Ohkawa, Lei Yang, Jia Pan, Yoichi Sato, Taku Komura, Wenping Wang."
+  venue: "ECCV Workshop"
+  year: 2024
+  comments:  "  (<i>HANDS workshop</i>)"
+  paper: https://arxiv.org/abs/2311.17366
+  web: ghtt.html
+  dataset: 
 - title: " <b>Hierarchical Temporal Transformer for 3D Hand Pose Estimation and Action Recognition from Egocentric RGB Videos </b>"
   authors: "<b>Yilin Wen</b>, Hao Pan, Lei Yang, Jia Pan, Taku Komura, Wenping Wang."
   venue: "CVPR"
