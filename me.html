@@ -1,0 +1,108 @@
+---
+layout: page
+title:  
+permalink: /
+---
+<h3>About Me</h3>
+<div>
+<p style="margin: 0">I'm currently a project research associate at <i><a href="https://www.ut-vision.org/sugano-lab/">Sugano-Lab,</a> Institute of Industrial Science, The University of Tokyo</i>. I obtained my Ph.D. degree at The University of Hong Kong. My research interest is related to 6D object pose estimation, and human activity understanding.</p>
+</div>
+
+<h3>Education</h3>
+<p style="margin: 0">[2018.9-2024.4] Ph.D., <b>The University of Hong Kong</b></p>
+<p style="margin: 0">&emsp;&emsp;&emsp;&emsp;&emsp; -&emsp;<i>Supervisor: <a href="https://www.cs.hku.hk/people/academic-staff/wenping">Prof. Wang Wenping</a> and <a href="https://i.cs.hku.hk/~taku/">Prof. Komura Taku</a></i></p>
+<p style="margin: 0">&emsp;&emsp;&emsp;&emsp;&emsp; -&emsp;<i>Thesis: <a href="https://hub.hku.hk/handle/10722/343766">Towards Generalizable Understanding of Object 6D Pose and Human Hand Action</a>.</i></p>
+<p style="margin: 0">[2014.9-2018.6] B.Eng.,  <b>Shandong University</b> </p>
+
+
+<h3>Experience</h3>
+<div>
+<p style="margin: 0">[2024.3-]  Project Research Associate, <b>The University of Tokyo</b>, Advisor: <a href="https://www.yusuke-sugano.info/">Prof. Sugano Yusuke</a></p>
+<p style="margin: 0">[2023.3-2024.2]  Visiting Associate Research Fellow, <b>The University of Tokyo</b>, Advisor: <a href="https://sites.google.com/ut-vision.org/ysato/">Prof. Sato Yoichi</a></p>
+<p style="margin: 0">[2021.1-2021.7]  Research Intern, <b>Microsoft Research Asia</b>, Advisor: <a href="https://haopan.github.io/">Dr. Pan Hao</a></p>
+<p style="margin: 0">[2017.7-2017.8]  Research Intern, <b>The University of Hong Kong</b>, Advisor: <a href="https://www.cs.hku.hk/people/academic-staff/wenping">Prof. Wang Wenping</a></p>
+<p style="margin: 0">[2015.11-2018.6] Student Research Assistant, <b>Shandong University</b>, Advisor: <a href="">Dr. Zhong Fan</a></p>
+</div>
+
+
+
+
+<h3>Selected Publications (<a href="https://scholar.google.co.uk/citations?user=bH6lBeMAAAAJ">Google Scholar</a>)</h3>
+<div class="publications">
+  <div class="timeline" id="timeline">
+    {% for publication in site.data.index.publications %}
+    {% assign next_i = forloop.index0 | plus: 1 %}
+    {% assign prev_i = forloop.index0 | minus: 1 %}
+    <ul>
+    <li>
+   	     <p style="margin: 0">{{publication.title}}</p>
+   	     <p style="margin: 0">{{ publication.authors  }}</p>
+         <p style="margin: 0">{{ publication.venue }} {{ publication.year }} {{ publication.comments }}</p>
+         {% if publication.paper %}
+         <a href=" {{publication.paper}} "><i class="fa fa-fw fa-file-o"></i>Paper</a>
+         {% endif %}
+         {% if publication.paper_local %}
+         <a href=" {{ site.url }}/download/{{publication.paper_local}} "><i class="fa fa-fw fa-file-o"></i>Paper</a>
+         {% endif %}
+         {% if publication.web %}
+         <a href="{{ publication.web}} "><i class="fa fa-fw fa-home"></i>Project Page</a>
+         {% endif %}
+         {% if publication.dataset %}
+         <a href="{{ publication.dataset}} "><i class="fa fa-fw fa-github"></i>Code and Data</a>
+         {% endif %}
+
+    </li>
+    </ul>
+
+    {% endfor %}
+  </div>
+ </div>
+
+<!--
+ <h3>Preprint</h3>
+ <div class="publications">
+   <div class="timeline" id="timeline">
+     {% for publication in site.data.index.preprints %}
+     {% assign next_i = forloop.index0 | plus: 1 %}
+     {% assign prev_i = forloop.index0 | minus: 1 %}
+     <ul>
+     <li>
+           <p style="margin: 0">{{publication.title}}</p>
+           <p style="margin: 0">{{ publication.authors  }}</p>
+          <p style="margin: 0">{{ publication.venue }} {{ publication.year }} {{ publication.comments }}</p>
+          {% if publication.paper %}
+          <a href=" {{publication.paper}} "><i class="fa fa-fw fa-file-o"></i>Paper</a>
+          {% endif %}
+          {% if publication.paper_local %}
+          <a href=" {{ site.url }}/download/{{publication.paper_local}} "><i class="fa fa-fw fa-file-o"></i>Paper</a>
+          {% endif %}
+          {% if publication.web %}
+          <a href="{{ publication.web}} "><i class="fa fa-fw fa-home"></i>Project Page</a>
+          {% endif %}
+          {% if publication.dataset %}
+          <a href="{{ publication.dataset}} "><i class="fa fa-fw fa-github"></i>Code and Data</a>
+          {% endif %}
+ 
+     </li>
+     </ul>
+ 
+     {% endfor %}
+   </div>
+  </div>
+-->
+
+
+<h3> Funding </h3>
+<p style="margin: 0"> [FY2025-FY2026] Research grant, The Telecommunications Advancement Foundation (TAF), Japan. </p> 
+
+<h3>Talk</h3>
+<p style="margin: 0">[2024.4] <a href="https://www.youtube.com/watch?v=Cm251vBy5sU">Lab Encounter with CUDANLab, Tallinn University</a></p>
+
+
+<h3>Languages</h3>
+<div>
+<p style="margin: 0"><b>Mandarin</b> (native proficiency)</p> 
+<p style="margin: 0"><b>Cantonese</b> (professional working proficiency)</p> 
+<p style="margin: 0"><b>English</b> (professional working proficiency): <i> TOEIC 960/990 (2024)</i></p> 
+<p style="margin: 0"><b>Japanese </b> (professional working proficiency): <i> JLPT N1 (2022)</i> </p>
+</div>
