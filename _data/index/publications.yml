@@ -2,6 +2,7 @@
   authors: "<b>Yilin Wen</b>, Kechuan Dong, Fumiya Suginaka, Ken Endo, Yusuke Sugano."
   venue: "ECCV"
   year: 2026
+  paper: https://ut-vision.github.io/RSP3D/
   web: https://ut-vision.github.io/RSP3D/
   dataset: https://github.com/ut-vision/RSP3D
 - title: " <b>Learning to Count Without Labels: Self-Supervised Skill Abstraction and Bayesian Counting for Garment Production Monitoring </b>"
