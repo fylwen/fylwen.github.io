@@ -1,4 +1,14 @@
-
+- title: " <b>Prosthesis-Aware 3D Human Pose Estimation: A Dataset and Benchmark for RSP Users</b>"
+  authors: "<b>Yilin Wen</b>, Kechuan Dong, Fumiya Suginaka, Ken Endo, Yusuke Sugano."
+  venue: "ECCV"
+  year: 2026
+  web: https://ut-vision.github.io/RSP3D/
+  dataset: https://github.com/ut-vision/RSP3D
+- title: " <b>Learning to Count Without Labels: Self-Supervised Skill Abstraction and Bayesian Counting for Garment Production Monitoring </b>"
+  authors: "Zhongxuan Li, <b>Yilin Wen</b>, Lei Yang, Jia Pan, Peng Zhou."
+  venue: "IEEE TII"
+  year: 2026
+  paper: https://ieeexplore.ieee.org/abstract/document/11561011
 - title: " <b>Robust Long-Term Test-Time Adaptation for 3D Human Pose Estimation Through Motion Discretization </b>"
   authors: "<b>Yilin Wen</b>, Kechuan Dong, Yusuke Sugano."
   venue: "AAAI"
